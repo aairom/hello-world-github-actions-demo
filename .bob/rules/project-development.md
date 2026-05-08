@@ -1,8 +1,8 @@
-## Project Development Rule
+# Project Development Rule
 
 When working with projects:
 
-1. **Project Contexct Guide**: Always check the links provided here to access the source code and docuentation repositories for implementation:
+1. **Project Contexct Guide**: Always check the links provided here to access the source code and documentation repositories for implementation:
    - Always refer to the project context to understand and verify the guidelines, rules and requirements for the project.
 2. **Sources and Links**:
    - Understanding GitHub Actions: https://docs.github.com/en/actions/get-started/understand-github-actions
@@ -22,7 +22,7 @@ When working with projects:
    - Always provide README.md with architecture + workflow diagrams as described
    - Always provide a ".gitignore" file which filters/ignores any ".env" files or any folders whichs' names start with "_" (underscore) to be pushed to GitHub (e.g.: _sources/, _images/, _docs/... )
 4. **Key Patterns**:
-   - Always test the functionnality of the code you provide 
+   - Always test the functionnality of the code you provide. 
    - When you make updates/enhancements and/or correct the bugs, update the existing documents and scripts, don't create new ones
 5. **Misc**:
    - On a MacOS platform, don't use the port 5000, it is reserved for the "AirDrop" application
