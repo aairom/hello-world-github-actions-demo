@@ -84,8 +84,20 @@ git commit -m "Initial commit: Hello World with GitHub Actions"
 # Push to GitHub
 git push -u origin main
 
+##################################
 # To restart all over again
 rm -rf .git
+git remote remove origin
+git add .
+git commit -m "restarting project"
+
+# Just in case the remote is stale, remove and re-add it
+git remote remove origin
+git remote add origin https://github.com/aairom/hello-world-github-actions-demo.git
+
+# Push it up
+git push -u origin main
+##################################
 ```
 
 ### 2. View Workflow
