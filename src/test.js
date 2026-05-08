@@ -1,9 +1,7 @@
-//
-// test.js
-//
 #!/usr/bin/env node
 
 /**
+ * test.js
  * Simple test suite for Hello World application
  */
 

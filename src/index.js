@@ -1,7 +1,7 @@
-// index.js
 #!/usr/bin/env node
 
 /**
+ * index.js
  * Hello World Application
  * A simple demonstration of GitHub Actions automation
  */
