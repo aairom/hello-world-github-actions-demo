@@ -184,6 +184,9 @@ hello-world-github-actions-demo/
 │       └── ci-cd.yml          # GitHub Actions workflow
 ├── Docs/
 │   ├── Architecture.md        # Detailed architecture documentation
+│   ├── BobDevOpsIntegration.md # DevOps Integration GuideLines
+│   ├── DeploymentGuide.md.   # Deployment Guide
+│   ├── GitHubActionsGuide.md # GitHub Actions Guide
 │   └── UserGuide.md          # User guide (to be created)
 ├── src/
 │   ├── index.js              # Main application file
@@ -193,7 +196,7 @@ hello-world-github-actions-demo/
 ├── output/                    # Generated reports and outputs
 ├── .gitignore                # Git ignore rules
 ├── package.json              # Project metadata and dependencies
-└── README.md                 # This file
+└── README.md                # This file
 ```
 
 ## 🔄 GitHub Actions Workflow
